@@ -1,0 +1,30 @@
+{
+  "name": "glitch-twitterbot",
+  "version": "0.0.1",
+  "description": "Beep beep tweet!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.14.0",
+    "nearley": "^2.19.7",
+    "randexp": "^0.5.3",
+    "twit": "^2.1.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "twitter",
+    "twitterbot",
+    "bot"
+  ],
+  "license": "MIT"
+}
